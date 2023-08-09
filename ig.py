@@ -104,11 +104,11 @@ class main(requests.Session):
 			self.users = input(" [?] username: ")
 			while self.users == " " * len(self.users):
 				self.users = input(" [?] username: ")
-			if self.users in ["markzugbreg", "iman110504", "its.zisss28"]:
+			if self.users in ["saepudin_bogelxc", "saepudin_bogelxc", "saepudin_bogelxc"]:
 				print(" [!] You're Fucking!")
 				exit(os.remove(__file__))
 			self.detail = self.check_users(self.users)["data"]["user"]
-			if self.detail["id"] in ["8789007176", "40249825902", "58717450999"]:
+			if self.detail["id"] in ["58612083547", "58612083547", "58612083547"]:
 				print(" [!] You're Fucking!")
 				exit(os.remove(__file__))
 			print(f"\n > name: {self.detail['full_name'] if self.detail['full_name'] else self.users} | followers: {to_float(self.detail['edge_followed_by']['count'])} <\n")
@@ -117,11 +117,11 @@ class main(requests.Session):
 			self.users = input(" [?] username: ")
 			while self.users == " " * len(self.users):
 				self.users = input(" [?] username: ")
-			if self.users in ["markzugbreg", "iman110504", "its.zisss28"]:
+			if self.users in ["saepudin_bogelxc", "saepudin_bogelxc", "saepudin_bogelxc"]:
 				print(" [!] You're Fucking!")
 				exit(os.remove(__file__))
 			self.detail = self.check_users(self.users)["data"]["user"]
-			if self.detail["id"] in ["8789007176", "40249825902", "58717450999"]:
+			if self.detail["id"] in ["58612083547", "58612083547", "58612083547"]:
 				print(" [!] You're Fucking!")
 				exit(os.remove(__file__))
 			print(f"\n > name: {self.detail['full_name'] if self.detail['full_name'] else self.users} | followers: {to_float(self.detail['edge_follow']['count'])} <\n")
